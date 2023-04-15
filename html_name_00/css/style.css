@@ -229,45 +229,45 @@ iframe {
     justify-content: center;
 }
 
-.form dl {
-    
-}
-
-.form dt {
-    float: left ;
-    clear: left ;
-    width: 240px ;
+.form__table {
+    display: grid;
+    grid-template-columns: 240px 400px;
+    grid-template-rows: 58px 58px 58px 58px 180px 120px;
     text-align: start;
-    padding-top: 15px;
-    border-right: 1px solid #bfbfbf;
-}
-
-.form dd {
-    float: left ;
-    width: 400px;
-    text-align: start;
-    padding: 8px;
-}
-
-.form__txt {
-    height: 36px;
+    border-top: 2px solid #bfbfbf;
 }
 
 .form input[type="text"] {
-    width: 80%;
+    width: 328px;
+    height: 36px;
 }
 
 .form textarea {
-    width: 80%;
+    width: 328px;
 }
 
 .form select {
-    width: 80%;
+    width: 328px;
+    height: 36px;
 }
 
 .form__douki label {
     display: block;
+    margin-bottom: 24px;
 }
+
+.form__txt {
+    padding: 8px 0 8px 8px;
+    border-bottom: 1px solid #bfbfbf;
+}
+.form__l {
+    border-right: 1px solid #bfbfbf;
+}
+
+
+/* .form__txt :not(:first-of-type) {
+    border-left: solid 1px black;
+  } */
 
 /* コンタクトここまで */
 

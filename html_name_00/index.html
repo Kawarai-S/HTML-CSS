@@ -184,34 +184,36 @@
         </div>
       </div>
       <div class="form">
-        <dl>
-          <dt class="form__txt">名前</dt>
-          <dd class="form__txt"><input type="text"></dd>
-          <dt class="form__txt">カナ</dt>
-          <dd class="form__txt"><input type="text"></dd>
-          <dt class="form__txt">メールアドレス</dt>
-          <dd class="form__txt"><input type="text"></dd>
-          <dt>チーズアカデミーを知ったきっかけ</dt>
-          <dd>
-            <select name="" id="">
+        <div class="form__table">
+          <div class="form__txt form__l">名前</div>
+          <div class="form__txt"><input type="text"></div>
+          <div class="form__txt form__l">カナ</div>
+          <div class="form__txt"><input type="text"></div>
+          <div class="form__txt form__l">メールアドレス</div>
+          <div class="form__txt"><input type="text"></div>
+          <div class="form__txt form__l">
+            <div>チーズアカデミーを</div>
+            <div>知ったきっかけ</div></div>
+          <div class="form__txt">
+            <select name="きっかけ" id="">
                 <option value="">google検索</option>
                 <option value="">SNS</option>
                 <option value="">紹介</option>
                 <option value="">たまたま通りかかった</option>
                 <option value="">その他</option>
             </select>
-          </dd>
-          <dt>志望動機</dt>
-          <dd class="form__douki">
+          </div>
+          <div class="form__txt form__l">志望動機</div>
+          <div class="form__txt form__douki">
             <label><input type="checkbox" name="志望動機">起業をしたい</label>
             <label><input type="checkbox" name="志望動機">チーズ系企業に就職・転職したい</label>
             <label><input type="checkbox" name="志望動機">チーズと関わる仕事をしており、仕事に生かしたい</label>
             <label><input type="checkbox" name="志望動機">チーズの教養を身につけたい</label>
-          </dd>
-          <dt>詳細</dt>
-          <dd><textarea rows="5"></textarea></dd>
-        </dl>
-        <input type="submit" value"送信" class="button">
+          </div>
+          <div class="form__txt form__l">詳細</div>
+          <div class="form__txt"><textarea rows="5"></textarea></div>
+        </div>
+        <!-- <input type="submit" value"送信" class="button"> -->
       </div>
       <div>
 
