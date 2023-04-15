@@ -203,24 +203,23 @@ iframe {
 }
 
 .form dl {
-    border-top: 2px #bfbfbf;
+    
 }
 
 .form dt {
     float: left ;
     clear: left ;
-    margin-right: 0.5em ;
     width: 240px ;
     text-align: start;
-    margin-top: 15px;
+    padding-top: 15px;
+    border-right: 1px solid #bfbfbf;
 }
 
 .form dd {
     float: left ;
-    margin-left: 1em ;
     width: 400px;
     text-align: start;
-    margin: 8px;
+    padding: 8px;
 }
 
 .form__txt {
