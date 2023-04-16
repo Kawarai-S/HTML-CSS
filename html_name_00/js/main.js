@@ -1,6 +1,11 @@
 // jsを記述する際はここに記載していく
-$('.slide__wrapper').slick({
-    autoplay:true,
-    autoplaySpeed:5000,
-    dots:true,
+$(function(){
+  $('.slider').slick({
+      slidesToShow: 1,
+      slidesToScroll: 1,
+      autoplay: true,
+      autoplaySpeed: 2000,
+      centerMode: true,
+      centerPadding: '30%'
+  });
 });

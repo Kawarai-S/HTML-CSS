@@ -107,9 +107,9 @@ p {
     margin-top: 60px;
 }
 
-.slide__wrapper{
+.slider {
     margin: 100px auto;
-    width: 80%;
+    width: 100%;
 }
 .slide {
     height: auto;
