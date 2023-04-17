@@ -2,7 +2,8 @@
 .wrap {
     width: 1200px;
     margin: 0 auto;
-    font-family:'Hiragino Maru Gothic ProN W4','ヒラギノ丸ゴ ProN W4','Meiryo','メイリオ';
+    font-family: 'Zen Antique', serif;
+    /* font-family:'Hiragino Maru Gothic ProN W4','ヒラギノ丸ゴ ProN W4','Meiryo','メイリオ'; */
     cursor: url(../img/point.png),auto;
 }
 
