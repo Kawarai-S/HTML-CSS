@@ -20,10 +20,19 @@
   <script type="text/javascript" src="js/main.js"></script>
   </head>
 <!-- 最初の設定は終わっています　必要な方は触ってください -->
-
-<body>
+<body class="is_fade">
   <!-- この中に記述していく -->
   <!-- ここから下にコードを書く -->
+  <!-- 遷移アニメ -->
+  <script>
+  var fixLoad = function(){
+      document.body.classList.remove("is_fade");
+      document.body.classList.remove("is_remove");
+  } 
+  setTimeout(fixLoad, 500);
+  </script>
+  <div class="md_transition"></div>
+  <!-- 本文ここから -->
   <div class="wrap">
     <header id="header">
       <div class="header_logo">
